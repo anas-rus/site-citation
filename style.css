@@ -1,0 +1,37 @@
+body{
+height: 25%;
+
+    background-color: #58c7ff;
+}
+h1,h2{
+    text-align: center;
+}
+em{ 
+    display: block;
+    text-align: center;
+}
+
+.buton {position: absolute;
+    top: 30%;
+    transform: translate(100%,30%);
+    padding: 10px;
+    
+    
+}
+input{
+    background-color: rgb(235, 45, 143);
+}
+ #maCitation{
+    /*pour mettre la couleur du texte*/
+    color:rgb(41, 185, 165);
+    background-color: rgb(188, 218, 52)
+    border-radius: 5px;
+    /*pour donner la taille des ecritures*/
+    font-size: 16px;
+    /*pour fonner le style d'ecriture*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*pour doner le style de curseur*/
+    cursor:pointer ;
+    /*pour faire que l image flote*/
+    box-shadow: 0px 10px 20px rgba(0,0,0.4);
+ }
